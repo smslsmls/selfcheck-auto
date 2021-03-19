@@ -5,12 +5,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 
 N=2
+
 name=["윤서준",
 "윤병훈"]
+
 birth=["051223",
 "050503"]
+
 pw=["1223",
 "1234"]
+
 
 for i in range(N):
     driver = webdriver.Chrome()
